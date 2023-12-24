@@ -33,6 +33,7 @@
                 <legend>Exercise</legend>
                 <div class="input-container"></div>
             </fieldset>
+
             <div class="controls">
                 <span>
                     <label for="entry-dropdown">Add food or exercise:</label>
@@ -47,8 +48,15 @@
                     
                 </span>
             </div>
+            <div>
+              <button id="calculate-calories" type="submit">Calculate Remaining Calories</button>
+              <button id="clear" type="button">Clear</button>
+            </div>
+            
         </form>
+        <div id="output" class="output hide"></div>
       </div>
+
     </main>
     <script src="script.js"></script>
   </body>
